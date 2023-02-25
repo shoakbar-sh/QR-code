@@ -53,3 +53,31 @@ button:active{
 img{
    margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 350px){
+   .container {
+      width: 270px;
+      margin: 0 auto;
+      padding: 20px 30px;
+   }
+   
+   .input{
+      padding: 8px 14px;
+      margin-bottom: 20px;
+      width: 240px;
+   }
+   
+   button{
+      padding: 8px 14px;
+      margin-bottom: 27px;
+      letter-spacing: 2px;
+   }
+   
+   #qr-image{
+      display: none;
+   }
+   
+   img{
+      margin-bottom: 20px;
+   }
+}
